@@ -33,11 +33,11 @@ Basic usage:
 $ python predict.py /path/to/image saved_model
 ```
 Options:
-*--top_k : Return the top KK most likely classes:
+* --top_k : Return the top KK most likely classes:
 ```python
 $ python predict.py /path/to/image saved_model --top_k KK
 ```
-*--category_names : Path to a JSON file mapping labels to flower names:
+* --category_names : Path to a JSON file mapping labels to flower names:
 ```python
 $ python predict.py /path/to/image saved_model --category_names map.json
 ```
