@@ -43,7 +43,7 @@ $ python predict.py /path/to/image saved_model --category_names map.json
 ```
 The best way to get the command line input into the scripts is with the argparse module in the standard library. You can also find a nice tutorial for argparse here.
 
-Examples
+### Examples
 For the following examples, we assume we have a file called orchid.jpg in a folder named/test_images/ that contains the image of a flower. We also assume that we have a Keras model saved in a file named my_model.h5.
 
 Basic usage:
@@ -62,7 +62,7 @@ $ python predict.py ./test_images/orchid.jpg my_model.h5 --top_k 3
 $ python predict.py ./test_images/orchid.jpg my_model.h5 --category_names label_map.json
 ```
 
-Workspace
+### Workspace
 Install TensorFlow
 We have provided a Command Line Interface workspace for you to run and test your code. Before you run any commands in the terminal make sure to install TensorFlow 2.0 and TensorFlow Hub using pip as shown below:
 ```python
