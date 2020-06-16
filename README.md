@@ -1,11 +1,9 @@
 # Final project for Deep Learning section in Udacity course "Introduction to Machine Learning with TensorFlow Nanodegree Program"
 
 
-Foobar is a Python library for dealing with word pluralization.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Part 1: Developing an Image Classifier with Deep Learning using TensorFlow
+In this first part of the project, you'll work through a Jupyter notebook to implement an image classifier with TensorFlow.
 
 ```bash
 pip install foobar
