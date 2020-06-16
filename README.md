@@ -44,8 +44,10 @@ Examples
 For the following examples, we assume we have a file called orchid.jpg in a folder named/test_images/ that contains the image of a flower. We also assume that we have a Keras model saved in a file named my_model.h5.
 
 Basic usage:
-
+```bash
 $ python predict.py ./test_images/orchid.jpg my_model.h5
+```
+
 Options:
 
 Return the top 3 most likely classes:
