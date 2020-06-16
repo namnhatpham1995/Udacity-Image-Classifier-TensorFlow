@@ -11,9 +11,9 @@ In this project, you'll train an image classifier to recognize different species
 
 The project is broken down into multiple steps:
 
-* Load the image dataset and create a pipeline.
-* Build and Train an image classifier on this dataset.
-* Use your trained model to perform inference on flower images.
+1. Load the image dataset and create a pipeline.
+2. Build and Train an image classifier on this dataset.
+3. Use your trained model to perform inference on flower images.
 
 We'll lead you through each part which you'll implement in Python.
 
@@ -23,16 +23,16 @@ When you've completed this project, you'll have an application that can be train
 
 Now that you've built and trained a deep neural network on the flower data set, it's time to convert it into an application that others can use. Your application should be a Python script that run from the command line. For testing, you should use the saved Keras model you saved in the first part.
 
-Specifications
+#### Specifications
 The project submission must include a predict.py file that uses a trained network to predict the class for an input image. Feel free to create as many other files as you need. Our suggestion is to create a module just for utility functions like preprocessing images. Make sure to include all files necessary to run the predict.py file in your submission.
 
 The predict.py module should predict the top flower names from an image along with their corresponding probabilities.
 
-Basic usage:
+#### Basic usage:
 ```python
 $ python predict.py /path/to/image saved_model
 ```
-Options:
+#### Options:
 * --top_k : Return the top KK most likely classes:
 ```python
 $ python predict.py /path/to/image saved_model --top_k KK
@@ -53,26 +53,26 @@ $ python predict.py ./test_images/orchid.jpg my_model.h5
 
 #### Options:
 
-*Return the top 3 most likely classes:
+* Return the top 3 most likely classes:
 ```python
 $ python predict.py ./test_images/orchid.jpg my_model.h5 --top_k 3
 ```
-*Use a label_map.json file to map labels to flower names:
+* Use a label_map.json file to map labels to flower names:
 ```python
 $ python predict.py ./test_images/orchid.jpg my_model.h5 --category_names label_map.json
 ```
 
 ### Workspace
-Install TensorFlow
+#### Install TensorFlow
 We have provided a Command Line Interface workspace for you to run and test your code. Before you run any commands in the terminal make sure to install TensorFlow 2.0 and TensorFlow Hub using pip as shown below:
 ```python
 $ pip install -q -U "tensorflow-gpu==2.0.0b1"
 $ pip install -q -U tensorflow_hub
 ```
-Images for Testing
+#### Images for Testing
 In the Command Line Interface workspace we have we have provided 4 images in the ./test_images/ folder for you to check your prediction.py module. The 4 images are:
 
-cautleya_spicata.jpg
-hard-leaved_pocket_orchid.jpg
-orange_dahlia.jpg
-wild_pansy.jpg
+* cautleya_spicata.jpg
+* hard-leaved_pocket_orchid.jpg
+* orange_dahlia.jpg
+* wild_pansy.jpg
