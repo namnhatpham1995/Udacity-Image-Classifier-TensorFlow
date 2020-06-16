@@ -76,3 +76,6 @@ In the Command Line Interface workspace we have we have provided 4 images in the
 * hard-leaved_pocket_orchid.jpg
 * orange_dahlia.jpg
 * wild_pansy.jpg
+
+## License
+[Udacity Nanodegree](https://classroom.udacity.com/nanodegrees/nd230)
