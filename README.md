@@ -1,4 +1,5 @@
-# Foobar
+# Final project for Deep Learning section in Udacity course "Introduction to Machine Learning with TensorFlow Nanodegree Program"
+
 
 Foobar is a Python library for dealing with word pluralization.
 
