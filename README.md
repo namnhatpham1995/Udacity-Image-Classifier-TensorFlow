@@ -46,12 +46,12 @@ The best way to get the command line input into the scripts is with the argparse
 ### Examples
 For the following examples, we assume we have a file called orchid.jpg in a folder named/test_images/ that contains the image of a flower. We also assume that we have a Keras model saved in a file named my_model.h5.
 
-Basic usage:
+#### Basic usage:
 ```python
 $ python predict.py ./test_images/orchid.jpg my_model.h5
 ```
 
-Options:
+#### Options:
 
 *Return the top 3 most likely classes:
 ```python
