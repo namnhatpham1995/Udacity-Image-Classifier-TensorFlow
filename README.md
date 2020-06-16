@@ -29,8 +29,9 @@ The project submission must include a predict.py file that uses a trained networ
 The predict.py module should predict the top flower names from an image along with their corresponding probabilities.
 
 Basic usage:
-
+,,,
 $ python predict.py /path/to/image saved_model
+,,,
 Options:
 
 --top_k : Return the top KK most likely classes:
